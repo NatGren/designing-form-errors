@@ -8,9 +8,9 @@ html {
 
 .is-validated input:invalid,
 .is-validated input[type="checkbox"]:invalid + label::before,
-.is-validated:invalid.
+.is-validated:invalid,
 .is-validated[type="checkbox"]:invalid + label::before {
-  border-color: #ff3;
+  border-color: #f33;
 }
 
 .error-message {
@@ -20,8 +20,8 @@ html {
 }
 
 .error-message-highlighted {
-  background-color: #fee;
-  color: #c33;
+  background-color: #c33;
+  color: #fff;
 }
 
 .is-validated > .error-message:first-child,
